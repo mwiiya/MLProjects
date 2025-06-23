@@ -1,0 +1,20 @@
+
+
+cd /d "E:\5. SCHOOL\9. GITHUB PROJECTS\MLProjects"
+
+code .
+
+conda create -p venv python==3.8 -y
+
+conda activate venv/
+
+git init
+git add README.md
+
+git commit -m "my first commit" 
+git status
+git branch -M main
+
+git remote add origin https://github.com/mwiiya/MLProjects.git
+
+git push -u origin main
