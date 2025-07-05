@@ -1,12 +1,17 @@
 
 ANACONDA PROMPT
-cd /d "E:\5. SCHOOL\9. GITHUB PROJECTS\MLProjects"
+cd /d "E:\5. SCHOOL\9. GITHUB PROJECTS\MLProjects"    
+
+OR# 
+mkdir my_python_project
+cd my_python_project
+
 
 code .
 
 
 VISUAL STUDIO CODE TERMINAL
-conda create -p venv python==3.8 -y
+conda create -p venv python==3.12 -y
 
 conda activate venv/
 

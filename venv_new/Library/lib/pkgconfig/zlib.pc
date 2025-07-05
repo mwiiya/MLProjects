@@ -1,0 +1,13 @@
+prefix=E:/5. SCHOOL/9. GITHUB PROJECTS/MLProjects/venv_new/Library
+exec_prefix=E:/5. SCHOOL/9. GITHUB PROJECTS/MLProjects/venv_new/Library
+libdir=E:/5. SCHOOL/9. GITHUB PROJECTS/MLProjects/venv_new/Library/lib
+sharedlibdir=E:/5. SCHOOL/9. GITHUB PROJECTS/MLProjects/venv_new/Library/lib
+includedir=E:/5. SCHOOL/9. GITHUB PROJECTS/MLProjects/venv_new/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
